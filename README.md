@@ -120,6 +120,7 @@ Based on those scripts i built a quick shiny app to run the scripts by GUI
    ![alt text](image-27.png)
 10. Metrics are ready for each csv file!
    ![alt text](image-28.png)
+   ![alt text](image-33.png)
 11. You can explore the metrics based on demographics, just upload it and click submit
    ![alt text](image-29.png)
     1.  The first column must be each csv filename, with "file" as first row
