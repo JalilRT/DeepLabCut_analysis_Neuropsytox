@@ -2462,12 +2462,26 @@ pipeline_1 <- function(path, fps, bodypoint, EPM_zoneinfo){
   return(Tracking)
 }
 
+pipeline_2 <- function(path, fps, bodypoint, EPM_zoneinfo){
+  Tracking <- ReadDLCDataFromCSV(file = path, fps = fps)
+  Tracking <- CleanTrackingData(Tracking, likelihoodcutoff = 0.95)
+  Tracking <- CalibrateTrackingData(Tracking, "area",in.metric = 42*42, points = c("tl","tr","br","bl"))
+  #PlotPointData(Tracking, points = c("nose"))
+  zoneinfo <- read.table(EPM_zoneinfo, sep = ",", header = T)
+  Tracking <- AddZones(Tracking,zoneinfo)
+  Tracking <- objet(Tracking, 7)
+  Tracking <- CleanTrackingData(Tracking, likelihoodcutoff = 0.95,existence.pol = ScalePolygon(Tracking$zones$arena, 1.2))
+  Tracking <- AnalysisRO(Tracking, movement_cutoff = 4,integration_period = 5,points = bodypoint, nosedips = FALSE)
+  return(Tracking)
+}
+
 ui <- fluidPage(
-  titlePanel("Calculate Anxiety Index from EPM Tracking Files"),
+  titlePanel("Calculate Anxiety or Preferency Index from EPM/NOR Tracking Files"),
   sidebarLayout(
     sidebarPanel(width = 2,
                  textInput("input_folder", "Input Folder Path:", value = ""),
                  fileInput("zone_info", "Select Zone Info CSV:", accept = ".csv"),
+                 selectInput("task", "Task:", choices = c("EPM", "NOR")),
                  numericInput("fps", "FPS:", value = 15),
                  textInput("bodypoint", "Bodypoint to analyze", value = "bodycentre/tailbase"),
                  switchInput(
@@ -2519,6 +2533,7 @@ server <- function(input, output, session) {
       if (file.exists(paste0(input$input_folder,"/Indexes_tracked.csv"))) {
         file.remove(paste0(input$input_folder,"/Indexes_tracked.csv"))
       }
+      
       fileInfo <- input$zone_info
       filePath <- fileInfo$datapath
       zoneinfo <- read.table(filePath, sep = ",", header = TRUE)
@@ -2527,45 +2542,89 @@ server <- function(input, output, session) {
       csv_files <- list.files(input$input_folder, recursive = TRUE, pattern = "\\.csv$", full.names = TRUE)
       if (length(csv_files) == 0) stop("No files found in the input folder.")
       
-      out <- list()
-      for(j in csv_files){
-        out[[paste(j)]] <- pipeline_1(j, input$fps, input$bodypoint, filePath)
-      }
-      
-      Report <- MultiFileReport(out)
-      Report$file <- sub("\\..*", "", Report$file)
-      
-      open <- paste0(input$bodypoint,".open.total.time")
-      closed <- paste0(input$bodypoint,".closed.total.time")
-      Time_Ind <- Report %>% dplyr::select(file,open,closed) %>%
-        mutate(resta = (get(closed)-get(open)),
-               suma = (get(open)+get(closed)),
-               PI = if_else(is.nan(get(closed)/suma),0,(get(closed)/suma)))
-      
-      open <- paste0(input$bodypoint,".open.transitions")
-      closed <- paste0(input$bodypoint,".closed.transitions")
-      Entries_Ind <- Report %>% dplyr::select(file,open, closed) %>%
-        mutate(resta = (get(closed)-get(open)),
-               suma_entry = (get(open)+get(closed)),
-               PI_entries = if_else(is.nan(get(closed)/suma_entry),0,(get(closed)/suma_entry)))
-      
-      Anx_Ind <- left_join(Time_Ind,Entries_Ind, by = "file") %>% 
-        mutate(Anxiety_index = ( 1- ((PI) + (PI_entries)) / 2 ) ) %>% 
-        dplyr::select(c(file,PI,PI_entries,Anxiety_index)) %>% left_join(rbind(Report),by = "file") %>%
-        mutate(Rats = rep("Rats",nrow(Time_Ind)) )
-      
-      
-      if (input$export_result == TRUE) {
-        write_csv(Anx_Ind,paste0(input$input_folder,"/Indexes_tracked.csv"))
-      }
-      
-      if (is.null(input$additional_csv)) {
-        return(Anx_Ind)
-      } else {
-        req(input$additional_csv)
-        uploadedData <- read_csv(input$additional_csv$datapath)
-        Anx_Ind_all <- left_join(Anx_Ind, uploadedData, by = "file") 
-        return(Anx_Ind_all)
+      if (input$task == "EPM") {
+        
+        out <- list()
+        for(j in csv_files){
+          out[[paste(j)]] <- pipeline_1(j, input$fps, input$bodypoint, filePath)
+        }
+        
+        Report <- MultiFileReport(out)
+        Report$file <- sub("\\..*", "", Report$file)
+        
+        open <- paste0(input$bodypoint,".open.total.time")
+        closed <- paste0(input$bodypoint,".closed.total.time")
+        Time_Ind <- Report %>% dplyr::select(file,open,closed) %>%
+          mutate(resta = (get(closed)-get(open)),
+                 suma = (get(open)+get(closed)),
+                 PI = if_else(is.nan(get(closed)/suma),0,(get(closed)/suma)))
+        
+        open <- paste0(input$bodypoint,".open.transitions")
+        closed <- paste0(input$bodypoint,".closed.transitions")
+        Entries_Ind <- Report %>% dplyr::select(file,open, closed) %>%
+          mutate(resta = (get(closed)-get(open)),
+                 suma_entry = (get(open)+get(closed)),
+                 PI_entries = if_else(is.nan(get(closed)/suma_entry),0,(get(closed)/suma_entry)))
+        
+        Anx_Ind <- left_join(Time_Ind,Entries_Ind, by = "file") %>% 
+          mutate(Anxiety_index = ( 1- ((PI) + (PI_entries)) / 2 ) ) %>% 
+          dplyr::select(c(file,PI,PI_entries,Anxiety_index)) %>% left_join(rbind(Report),by = "file") %>%
+          mutate(Rats = rep("Rats",nrow(Time_Ind)) )
+        
+        
+        if (input$export_result == TRUE) {
+          write_csv(Anx_Ind,paste0(input$input_folder,"/Indexes_tracked.csv"))
+        }
+        
+        if (is.null(input$additional_csv)) {
+          return(Anx_Ind)
+        } else {
+          req(input$additional_csv)
+          uploadedData <- read_csv(input$additional_csv$datapath)
+          Anx_Ind_all <- left_join(Anx_Ind, uploadedData, by = "file") 
+          return(Anx_Ind_all)
+        }
+        
+      } else if (input$task == "NOR") {
+        out <- list()
+        for(j in csv_files){
+          out[[paste(j)]] <- pipeline_2(j, input$fps, input$bodypoint, filePath)
+        }
+
+        Report <- MultiFileReport(out)
+        Report$file <- sub("\\..*", "", Report$file)
+
+        open <- paste0(input$bodypoint,".nob.total.time")
+        closed <- paste0(input$bodypoint,".ob.total.time")
+        Time_Ind <- Report %>% dplyr::select(file,open,closed) %>%
+          mutate(resta = (get(closed)-get(open)),
+                 suma = (get(open)+get(closed)),
+                 PI = if_else(is.nan(get(closed)/suma),0,(get(closed)/suma)))
+
+        open <- paste0(input$bodypoint,".nob.transitions")
+        closed <- paste0(input$bodypoint,".ob.transitions")
+        Entries_Ind <- Report %>% dplyr::select(file,open, closed) %>%
+          mutate(resta = (get(closed)-get(open)),
+                 suma_entry = (get(open)+get(closed)),
+                 PI_entries = if_else(is.nan(get(closed)/suma_entry),0,(get(closed)/suma_entry)))
+
+        Dis_Ind <- left_join(Time_Ind,Entries_Ind, by = "file") %>%
+          mutate(Discrimination_index = ( 1- ((PI) + (PI_entries)) / 2 ) ) %>%
+          dplyr::select(c(file,PI,PI_entries,Discrimination_index)) %>% left_join(rbind(Report),by = "file") %>%
+          mutate(Rats = rep("Rats",nrow(Time_Ind)) )
+
+        if (input$export_result == TRUE) {
+          write_csv(Dis_Ind,paste0(input$input_folder,"/Indexes_tracked.csv"))
+        }
+
+        if (is.null(input$additional_csv)) {
+          return(Dis_Ind)
+        } else {
+          req(input$additional_csv)
+          uploadedData <- read_csv(input$additional_csv$datapath)
+          Dis_Ind_all <- left_join(Dis_Ind, uploadedData, by = "file")
+          return(Report)
+        }
       }
       
     }, error = function(e) {
@@ -2585,27 +2644,27 @@ server <- function(input, output, session) {
   
   x <- reactive({
     req(results())
-    Anx_Ind <- results()
-    Anx_Ind[,input$x_var]
+    AD_Ind <- results()
+    AD_Ind[,input$x_var]
   } )
   
   y <- reactive({
     req(results())
-    Anx_Ind <- results()
-    Anx_Ind[,input$y_var]
+    AD_Ind <- results()
+    AD_Ind[,input$y_var]
   } )
   
   z <- reactive({
     req(results())
-    Anx_Ind <- results()
-    Anx_Ind[,input$z_var]
+    AD_Ind <- results()
+    AD_Ind[,input$z_var]
   } )
   
   output$graph_output <- renderPlotly({
     req(results())
-    Anx_Ind <- results()
+    AD_Ind <- results()
     if (is.null(input$additional_csv)) {
-      ggplotly(ggplot(Anx_Ind, aes(x = Rats, y = y(), fill = file)) +
+      ggplotly(ggplot(AD_Ind, aes(x = Rats, y = y(), fill = file)) +
                  geom_point() +
                  theme_minimal() +
                  xlab("Rats") +
