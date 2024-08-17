@@ -1,0 +1,13 @@
+arena,closed.top,closed.bottom,open.left,open.right,center
+tl,lt,ctr,tl,rt,cbr
+tr,ctl,ctl,tr,rb,br
+ctr,cbl,cbl,ctl,cbr,bl
+rt,lb,cbr,ctr,ctr,cbl
+rb,,,,,
+cbr,,,,,
+br,,,,,
+bl,,,,,
+cbl,,,,,
+lb,,,,,
+lt,,,,,
+ctl,,,,,
