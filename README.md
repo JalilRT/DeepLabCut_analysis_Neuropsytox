@@ -30,19 +30,19 @@ Another short tutorial of HOW TO NEUROPSYTOX:
    6. Verify the installation: deeplabcut check-requirements.
 
    ![alt text](image.png)
-   7. Install anaconda environments
+7. Install anaconda environments
    ![alt text](image-1.png)
-   8. git clone https://github.com/DeepLabCut/DeepLabCut.git or download as a zip file
-   9. Open the Anaconda Navigator
-   10. Select the yalm file and install it 
+8. git clone https://github.com/DeepLabCut/DeepLabCut.git or download as a zip file
+9. Open the Anaconda Navigator
+10. Select the yalm file and install it 
    ![alt text](image-2.png)
-   11. After installing, run ipython terminal
+11. After installing, run ipython terminal
    ![alt text](image-3.png)
-   12. Run:
-       1.  Import deeplabcut
-       2.  Run deeplabcut.launch()
+12. Run:
+   1.  Import deeplabcut
+   2.  Run deeplabcut.launch()
    ![alt text](image-4.png)
-   13. Open DLC gui
+13. Open DLC gui
    ![alt text](image-5.png)
 
 
