@@ -2,14 +2,21 @@
 
 Another short tutorial of HOW TO NEUROPSYTOX:
 
-- Running DLC analysis for behavior tasks commonly used in neuropsytox laboratory
-- Convert from DLC coordinates to basic behavior metrics
-- Assisted watcher of measuring behaviors by hand
-- Discovering behaviors
+- [Behavior analysis tutorial](#behavior-analysis-tutorial)
+- [Installation](#installation)
+    - [DeepLabCut (already installed in laboratory laptops)](#deeplabcut-already-installed-in-laboratory-laptops)
+- [Running DLC for animal tracking](#running-dlc-for-animal-tracking)
+  - [DeepLabCut to analyze videos of EPM or NOR](#deeplabcut-to-analyze-videos-of-epm-or-nor)
+    - [Re-train your network](#re-train-your-network)
+- [Behavior metrics](#behavior-metrics)
+    - [Using the shiny app to run DLCAnalyzer scripts](#using-the-shiny-app-to-run-dlcanalyzer-scripts)
+- [Assistent watchers to create ethograms](#assistent-watchers-to-create-ethograms)
+  - [Using BORIS](#using-boris)
+- [Discovering behaviors (pose + frame networks)](#discovering-behaviors-pose--frame-networks)
 
-## Installation 
+# Installation 
 
-#### DeepLabCut (already installed in laboratory laptops)
+### DeepLabCut (already installed in laboratory laptops)
 
 1. By hand:
    1. Install Python 3.7 or higher.
@@ -42,8 +49,8 @@ Another short tutorial of HOW TO NEUROPSYTOX:
 **Links** 📖:
 https://deeplabcut.github.io/DeepLabCut/docs/installation.html
 
-## Running DLC for animal tracking
-#### DeepLabCut to analyze videos of EPM or NOR
+# Running DLC for animal tracking
+## DeepLabCut to analyze videos of EPM or NOR
 
 1. Import library `import deeplabcut`
 2. Launch the gui: `deeplabcut.launch_dlc()`
@@ -78,7 +85,7 @@ https://deeplabcut.github.io/DeepLabCut/docs/installation.html
    ![alt text](image-17.png)
    ![alt text](image-16.png)
 
-#### Re-train your network
+### Re-train your network
 If the pose DLC or NOR -network is doing a terrible job to tracking, you can re-train it using your own videos. 
 
 1. Use a few videos to re-train (maybe 4 per recording conditions).
@@ -88,8 +95,8 @@ If the pose DLC or NOR -network is doing a terrible job to tracking, you can re-
 5. Re-training the network
 6. Analyze and quality control (See above section)
 
-## Behavior metrics
-#### Using the shiny app to run DLCAnalyzer scripts
+# Behavior metrics
+### Using the shiny app to run DLCAnalyzer scripts
 Please read the [paper](https://www.nature.com/articles/s41386-020-0776-y) and check the github repository: https://github.com/ETHZ-INS/DLCAnalyzer
 
 Based on those scripts i built a quick shiny app to run the scripts by GUI
@@ -123,10 +130,10 @@ Based on those scripts i built a quick shiny app to run the scripts by GUI
 13. At the end, you will have the indexes file with all basic DLCAnalyzer metrics
    ![alt text](image-32.png)
 
-## Assistent watchers to create ethograms
-### Using BORIS
+# Assistent watchers to create ethograms
+## Using BORIS
 
-## Discovering behaviors (pose + frame networks)
+# Discovering behaviors (pose + frame networks)
 
 
 
