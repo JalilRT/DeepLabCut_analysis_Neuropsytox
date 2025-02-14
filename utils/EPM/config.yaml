@@ -1,0 +1,529 @@
+    # Project definitions (do not edit)
+Task: EPM
+scorer: Jalil
+date: Mar18
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: 
+  C:/Users/jalil/phd/PhD/Psilantro/DLC_behavior/All_Groups/EPM-Jalil_mouse-2022-03-18
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_01_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_02_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_04_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_05_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_08_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_09_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_13_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_15_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G1_EPM_16_T2.mp4:
+    crop: 0, 650, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_17_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_19_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_20_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_21_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_23_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_26_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_28_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_29_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_30_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_18_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_22_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_24_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_25_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_29_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_30_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_31_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G2_EPM_32_T2.mp4:
+    crop: 0, 440, 0, 460
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_35_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_39_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_42_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_48_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_51_T1.mp4:
+    crop: 0, 600, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_33_T2.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_36_T2.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_38_T2.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_41_T2.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_45_T2.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_49_T2.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/G3_EPM_50_T2.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_64_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_63_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_62_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_61_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_59_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_58_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_57_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_56_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_54_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_53_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_52_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_67_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_66_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_65_T1.mp4:
+    crop: 0, 600, 0, 600
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_61_T2.mp4:
+    crop: 0, 900, 0, 900
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_58_T2.mp4:
+    crop: 0, 900, 0, 900
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_57_T2.mp4:
+    crop: 0, 900, 0, 900
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_56_T2.mp4:
+    crop: 0, 900, 0, 900
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_54_T2.mp4:
+    crop: 0, 900, 0, 900
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_53_T2.mp4:
+    crop: 0, 900, 0, 900
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/G4_EPM_52_T2.mp4:
+    crop: 0, 900, 0, 900
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G7_EPM_139_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G7_EPM_139_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G7_EPM_144_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G7_EPM_148_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G7_EPM_151_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G7_EPM_155_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_158_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_159_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_161_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_165_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_166_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_167_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_168_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_170_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_170_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_174_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_175_T2.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos/G8_EPM_177_T1.mp4:
+    crop: 0, 950, 0, 950
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/18_EPM_T1.mp4:
+    crop: 0, 1050, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/18_EPM_T2.mp4:
+    crop: 0, 1100, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/20_EPM_T2.mp4:
+    crop: 0, 1100, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/22_EPM_T1.mp4:
+    crop: 0, 1050, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/25_EPM_T2.mp4:
+    crop: 0, 1100, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/27_EPM_T1.mp4:
+    crop: 0, 1050, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/29_EPM_T1.mp4:
+    crop: 0, 1050, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/35_EPM_T1.mp4:
+    crop: 0, 1100, 0, 1050
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/39_EPM_T1.mp4:
+    crop: 0, 1100, 0, 1050
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/41_EPM_T1.mp4:
+    crop: 0, 1100, 0, 1050
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos2/42_EPM_T1.mp4:
+    crop: 0, 1100, 0, 1050
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos3/35_EPM_T2.mp4:
+    crop: 0, 1120, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos3/39_EMP_T2.mp4:
+    crop: 0, 1120, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos3/42_EPM_T2.mp4:
+    crop: 0, 1120, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos3/45_EPM_T2.mp4:
+    crop: 0, 1120, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-04-16/videos/new_videos3/48_EPM_T2.mp4:
+    crop: 0, 1120, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/new_videos4/EPM_T1_14.mp4:
+    crop: 0, 1150, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/new_videos4/EPM_T1_21.mp4:
+    crop: 0, 1150, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/new_videos4/EPM_T1_23.mp4:
+    crop: 0, 1150, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/new_videos4/EPM_T1_26.mp4:
+    crop: 0, 1150, 0, 1000
+  /media/jalil/jalil/DLC_tracking/All_Groups/EPM-Jalil-2022-03-18/videos/new_videos4/EPM_T1_27.mp4:
+    crop: 0, 1150, 0, 1000
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos5\G7_EPM_148_T1.mp4: 
+    crop: 0, 950, 0, 950
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos5\G2_EPM_26_T1.mp4: 
+    crop: 0, 720, 0, 720
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos5\G1_EPM_02_T2.mp4: 
+    crop: 0, 720, 0, 720
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos5\G3_EPM_39_T1.mp4: 
+    crop: 0, 600, 0, 700
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos5\G2_EPM_31_T2.mp4: 
+    crop: 0, 440, 0, 460
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\321_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\320_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\322_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\323_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos7\327_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos7\325_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos7\326_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos7\324_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos8\332_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos8\328_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos8\329_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos8\330_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos8\331_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos9\339_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos9\340_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos9\342_T2.mp4: 
+    crop: 0, 340, 0, 320
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\321_T1.mp4: 
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\320_T1.mp4: 
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\323_T1.mp4: 
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos6\322_T1.mp4: 
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos10\339_T1.mp4: 
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos10\341_T1.mp4: 
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos10\342_T1.mp4: 
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\DLC_behavior\All_Groups\EPM-Jalil_mouse-2022-03-18\videos\new_videos10\340_T1.mp4:
+    crop: 0, 340, 0, 340
+  C:\Users\jalil\phd\PhD\Psilantro\temp\epm_exp1\PS_MOR_EX1_EPM_T1_52_comcut_new_res.mp4:
+    crop: 0, 1100, 0, 1000
+  C:\Users\jalil\phd\PhD\Psilantro\temp\epm_exp1\PS_MOR_EX1_EPM_T1_53_comcut_new_res.mp4:
+    crop: 0, 1100, 0, 1000
+  C:\Users\jalil\phd\PhD\Psilantro\temp\epm_exp1\PS_MOR_EX1_EPM_T1_55_comcut_new_res.mp4:
+    crop: 0, 1100, 0, 1000
+  C:\Users\jalil\phd\PhD\Psilantro\temp\epm_exp1\PS_MOR_EX1_EPM_T1_56_comcut_new_res.mp4:
+    crop: 0, 1100, 0, 1000
+  C:\Users\jalil\phd\PhD\Psilantro\temp\epm_exp1\PS_MOR_EX1_EPM_T1_57_comcut_new_res.mp4:
+    crop: 0, 1100, 0, 1000
+bodyparts:
+- tl
+- tr
+- bl
+- br
+- lt
+- lb
+- rt
+- rb
+- ctl
+- ctr
+- cbl
+- cbr
+- nose
+- headcentre
+- neck
+- bodycentre
+- bcl
+- bcr
+- hipl
+- hipr
+- tailbase
+- tailcentre
+- tailtip
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 5
+
+    # Plotting configuration
+skeleton:
+- - nose
+  - bodycentre
+- - bodycentre
+  - tailbase
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 2
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 14
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
