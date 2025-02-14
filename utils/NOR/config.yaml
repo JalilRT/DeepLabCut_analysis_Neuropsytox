@@ -1,0 +1,415 @@
+    # Project definitions (do not edit)
+Task: NOR
+scorer: Jalil
+date: Apr27
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: C:/Users/jalil/phd/PhD/Psilantro/DLC_behavior/All_Groups/NOR-Jalil-2022-04-27
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G1_001_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G1_002_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G1_003_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G1_004_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G1_005_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G1_006_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G1_007_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G1_008_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G1_009_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G1_012_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G1_013_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G1_015_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G2_017_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G2_018_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G2_019_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G2_020_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G2_021_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G2_022_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G2_023_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G2_024_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G2_026_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G2_028_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G2_029_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G2_030_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G2_031_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G2_032_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G3_033_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G3_034_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G3_035_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G3_036_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G3_037_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G3_038_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G3_039_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G3_040_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G3_041_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G3_042_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G3_043_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G3_045_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G3_047_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G3_048_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G3_050_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G4_052_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G4_053_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G4_054_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G4_056_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G4_057_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G4_058_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G4_059_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G4_061_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G4_062_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G4_063_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G4_064_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/G4_065_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G4_067_NOR.mp4:
+    crop: 0, 700, 0, 700
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G5_068_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G5_069_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G5_070_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G5_072_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G5_074_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G5_075_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G5_076_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G5_077_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G5_078_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos3/G5_079_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos2/G5_081_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G5_084_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G5_085_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos/G5_087_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G7_139_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G7_145_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G7_152_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G7_154_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G8_157_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G8_158_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G8_162_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G8_167_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  /media/jalil/jalil/DLC_tracking/All_Groups/NOR-Jalil-2022-04-27/videos/new_videos4/G8_169_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_159_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_170_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\28_NOR_T2.mp4
+  : crop: 0, 1000, 0, 1100
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_156_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_166_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_154_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_139_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\26_NOR_T2.mp4
+  : crop: 0, 1000, 0, 1100
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_145_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_137_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\21_NOR_T2.mp4
+  : crop: 0, 1000, 0, 1100
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\29_NOR_T2.mp4
+  : crop: 0, 1000, 0, 1100
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_177_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_172_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_155_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_141_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_175_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_176_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_153_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_38_NOR.mp4
+  : crop: 0, 470, 0, 700
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_39_NOR.mp4
+  : crop: 0, 600, 0, 780
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_35_NOR.mp4
+  : crop: 0, 510, 0, 710
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_41_NOR.mp4
+  : crop: 0, 410, 0, 720
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_37_NOR.mp4
+  : crop: 0, 550, 0, 780
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_45_NOR.mp4
+  : crop: 0, 600, 0, 780
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_46_NOR.mp4
+  : crop: 0, 530, 0, 720
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\new_videos7\rot_45_NOR.mp4
+  : crop: 0, 600, 0, 780
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\new_videos7\rot_46_NOR.mp4
+  : crop: 0, 530, 0, 720
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\22_NOR_T2.mp4
+  : crop: 0, 1000, 0, 1100
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\27_NOR_T2.mp4
+  : crop: 0, 1000, 0, 1100
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_43_NOR.mp4
+  : crop: 0, 430, 0, 720
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\18_NOR_T2.mp4
+  : crop: 0, 1000, 0, 1100
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\rot_42_NOR.mp4
+  : crop: 0, 600, 0, 780
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G4_059_NOR.mp4
+  : crop: 0, 700, 0, 700
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G1_007_NOR.mp4
+  : crop: 0, 700, 0, 700
+  D:\videos_low\NOR\G2_030_NOR.mp4:
+    crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G1_012_NOR.mp4
+  : crop: 0, 700, 0, 700
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_158_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G4_063_NOR.mp4
+  : crop: 0, 700, 0, 700
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G7_144_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  ? C:\Users\jalil\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE 
+    MÉXICO\PhD\Psilantro\DLC_behavior\All_Groups\NOR-Jalil-2022-04-27\videos\G8_162_NOR.mp4
+  : crop: 0, 1080, 0, 1080
+  D:\MARIANAAA\BATCH_1\NOR_T2\20_NOR_T2.mp4:
+    crop: 0, 1000, 0, 1100
+  D:\MARIANAAA\BATCH_1\NOR_T2\25_NOR_T2.mp4:
+    crop: 0, 1000, 0, 1100
+  D:\MARIANAAA\BATCH_1\NOR_T2\30_NOR_T2.mp4:
+    crop: 0, 1000, 0, 1100
+  D:\MARIANAAA\BATCH_2\NOR_T2\rot_49_NOR.mp4:
+    crop: 0, 600, 0, 780
+  D:\MARIANAAA\BATCH_2\NOR_T2\rot_48_NOR.mp4:
+    crop: 0, 600, 0, 780
+  C:\Users\jalil\phd\PhD\Psilantro\temp\epm_exp1\PS_MOR_EX1_EPM_T1_56_comcut_new_res.mp4:
+    crop: 0, 1100, 0, 1000
+  C:\Users\jalil\phd\PhD\Psilantro\temp\epm_exp1\PS_MOR_EX1_EPM_T1_57_comcut_new_res.mp4:
+    crop: 0, 1100, 0, 1000
+bodyparts:
+- tl
+- tr
+- bl
+- br
+- obt
+- obb
+- obl
+- obr
+- nobt
+- nobb
+- nobl
+- nobr
+- nose
+- headcentre
+- neck
+- bodycentre
+- bcl
+- bcr
+- hipl
+- hipr
+- tailbase
+- tailcentre
+- tailtip
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 5
+
+    # Plotting configuration
+skeleton:
+- - nose
+  - bodycentre
+- - bodycentre
+  - tailbase
+- - obt
+  - obl
+- - obl
+  - obb
+- - obb
+  - obr
+- - obr
+  - obt
+- - nobt
+  - nobl
+- - nobl
+  - nobb
+- - nobb
+  - nobr
+- - nobr
+  - nobt
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 4
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 9
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
